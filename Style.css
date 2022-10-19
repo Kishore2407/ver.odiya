@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
+.text-center {
+    text-align: center;
+  }
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0 !important;
+}
+.text{
+    font-size: large;
+   
+    color:black;
+    font-weight: bolder;
+}
+.text1{
+    font-size: small;
+    font-weight: 400;
+    color: #333333;
+   font-family: 'inter';
+  
+}
+.bn{
+  background-color: #00B0FF ;
+  color: white;
+padding: 5px 30px;
+text-align: center;
+border: none;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #00B0FF !important;
+    border-color: #00B0FF !important;
+}
+.bt{
+   background-color: #00B0FF ;
+   color: white;
+ padding: 5px 30px;
+ text-align: center;
+ border: none;
+  }
+  .bt1{
+    background-color: #25D366 ;
+    color: white;
+  padding: 5px 30px;
+  text-align: center;
+  border: none;
+   }
+.okbutton {
+    background-color: #0047BB ;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   padding: 10px 40px;
+   text-align: center;
+   border: none;
+}
+.subtext {
+    font-size: 19px;
+}
+.txt{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'inter';
+}
+.title{
+    font-weight: 400;
+    color: #333333;
+    font-size: smaller;
+    font-family: 'inter';
+}
+.sec{
+    color: #333333; 
+    font-family: 'inter';
+}
+.successmsg {
+  font-weight: semibold;
+}
+.bottomMenu {
+  display: none;
+  color: white;
+  background-color: #0047BB;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration:none;
+  /* border-top: 1px solid #000; */
+}
+.fw-lighter{
+    color: #333333;
+    font-family: 'inter';
+  font-weight: 400;
+  text-align: justify;
+ }
+.get{
+    color: #333333;
+    font-family: 'inter';
+    font-weight: 200;
+    font-size: smaller;
+}
+.get1{
+    color: #333333;
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: larger;
+}
+.form{
+  width: 500px;
+  height: 400px;
+}
+.form-control{
+  /* width: 300px !important; */
+  width: 190px !important;
+  /* margin-left: 34px;   */
+  margin: auto;
+}
+.bg-white {
+  background: red !important;
+  transition: 1.5s ease-in;
+}
+.bg-white.scrolled {
+  background: white !important;
+}
+.frm{
+  width: 248px !important;
+ border-radius: 8px;
+}
+.f{
+  margin-left: 8px;
+}
+.o{
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+.banner{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  opacity: 3.5;
+  background-size: cover;
+}
+.bannermob {
+  width: 100%;
+  background-position: center;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2{
+background-size: 300px 400px ;
+padding-top: 70px;
+}
+.pt-5{
+margin-top: 90px;
+}
+.right{
+padding: 30px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.right1{
+  margin-right: 10px;
+}
+.p{
+  margin-left: 10px;
+}
+@media(width:800){
+  .mbl{
+    width:20px;
+    height:15px;
+  }
+}
+.bg-light{
+  opacity: 0.95;
+}
+.code{
+  margin-left: 8px;
+}
+.space{
+ padding: 30px 10px 30px 10px;
+}
+@media(max-width: 600px) {
+ .con{
+ padding-top: 10px;
+ }
+}
+.option{
+  width: 10px;
+}
+.drop{
+ padding-left: 40px;
+ padding-bottom: 20px;
+ width: 335px;
+}
+.logo{
+  width: 160px;
+  height: 30px;
+}
+.stickycta {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 24px;
+  color: #ffffff;
+  background: #0047BB;
+}
+.desk{
+  margin-left: 150px;
+}
+.form-control{
+  /* width: 300px !important; */
+  width: 190px !important;
+  /* margin-left: 34px;   */
+  margin: auto;
+}
+@media screen and (min-width:768px)and (max-width:1200px)
+{
+  .desk1{
+    margin-left: 380px;  
+  }
+}
+.font{
+  font-weight: bolder;
+  
+}
+.bgcolor{
+  background-color: #fafafa;
+}
+.font1{
+  margin-top: 30px;
+}
+.input-group{
+  justify-content: center !important;
+}
+.error{
+  color: rgb(214, 16, 16);
+  font-size: small;
+  padding-top: 7px;
+}
+.buttonload {
+  background-color: #00B0FF; 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px 
+}
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+.desktop-logo{
+  color: white;
+}
